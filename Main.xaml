@@ -51,10 +51,12 @@
       <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>ArenaRobotics.Domain</AssemblyReference>
       <AssemblyReference>Microsoft.Graph</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Sequence" sap2010:WorkflowViewState.IdRef="Sequence_1">
-    <adac:MessageBox Text="{x:Null}" DisplayName="Mesaj Kutusu" sap2010:WorkflowViewState.IdRef="MessageBox_1" />
+    <adac:MessageBox DisplayName="Mesaj Kutusu" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;aa&quot;]" />
     <sads:DebugSymbol.Symbol>dw1DOlxFbXB0eS54YW1sAA==</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
